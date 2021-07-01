@@ -8,7 +8,7 @@ fun bubbleSort(data: MutableList<Char>) {
     }
 }
 
-fun main() {
+fun main(args: Array<String>) {
     val data = mutableListOf('g', 'c', 'b', 'e', 'd', 'f', 'a')
     println(data.joinToString(" "))
     bubbleSort(data)
